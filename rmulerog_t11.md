@@ -400,13 +400,16 @@ Seguridad y Alta Disponibilidad
 Consulta XPath:
 
 ```xpath
-
+//modulo/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Aplicaciones web
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Seguridad y Alta Disponibilidad
 ```
 </details>
 
@@ -426,13 +429,15 @@ Seguridad y Alta Disponibilidad
 Consulta XPath:
 
 ```xpath
-
+//modulo[ciclo="ASIR"]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Seguridad y Alta Disponibilidad
 ```
 </details>
 
@@ -451,13 +456,14 @@ Seguridad y Alta Disponibilidad
 Consulta XPath:
 
 ```xpath
-
+//modulo[curso="2"]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Aplicaciones web
+Seguridad y Alta Disponibilidad
 ```
 </details>
 
