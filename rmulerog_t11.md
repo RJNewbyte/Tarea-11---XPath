@@ -510,13 +510,14 @@ Lenguajes de marcas y sistemas de gestión de información
 Consulta XPath:
 
 ```xpath
-
+//modulo[ciclo="ASIR" and curso="1"]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
 ```
 </details>
 
@@ -535,13 +536,14 @@ Salida esperada:
 Consulta XPath:
 
 ```xpath
-
+//modulo[horasSemanales>3]/horasSemanales/node()
 ```
 
 Salida real:
 
 ```xml
-
+4
+5
 ```
 </details>
 
@@ -549,17 +551,27 @@ Salida real:
 
 Invéntate tu propia consulta.
 
+>Nombre de los módulos con id mayor que 372.
+
 <details>
+Salida esperada:
+
+```plaintext
+Lenguajes de marcas y sistemas de gestión de información
+Seguridad y Alta Disponibilidad
+```
+
 Consulta XPath:
 
 ```xpath
-
+//modulo[@id>372]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Lenguajes de marcas y sistemas de gestión de información
+Seguridad y Alta Disponibilidad
 ```
 </details>
 </details>
