@@ -261,12 +261,10 @@ Administración de Sistemas Informáticos en Red
 Sistemas Microinformáticos y Redes
 ```
 
-Consulta XPath:
-
 Consulta XPath en un paso:
 
 ```xpath
-//ciclo[decretoTitulo/@año<2010]/nombre
+//ciclo[decretoTitulo/@año<2010]/nombre/node()
 ```
 
 Consulta XPath en dos pasos:
@@ -278,7 +276,8 @@ Consulta XPath en dos pasos:
 Salida real:
 
 ```xml
-
+Administración de Sistemas Informáticos en Red
+Sistemas Microinformáticos y Redes
 ```
 </details>
 
@@ -296,22 +295,42 @@ Desarrollo de Aplicaciones Multiplataforma
 Sistemas Microinformáticos y Redes
 ```
 
-Consulta XPath:
+Consulta XPath en un paso:
 
 ```xpath
+//ciclo[decretoTitulo/@año=2010 or decretoTitulo/@año=2008]/nombre/node()
+```
 
+Consulta XPath en dos pasos:
+
+```xpath
+//decretoTitulo[@año=2010 or @año=2008]/../nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Desarrollo de Aplicaciones Multiplataforma
+Sistemas Microinformáticos y Redes
 ```
 </details>
 
-### Actividad 1.9
+### Actividad 1.9 (BIS?)
 
 Invéntate tu propia consulta.
+>Obtener todos los nombres de los ciclos que contengan la palabra "informáticos", no case-sensitive.
+>>Se trata de una consulta avanzada que puede no mostrarse en todos los visores. [http://xpather.com ](Recomendado)
+
+Salida esperada:
+
+```<nombre>Administración de Sistemas Informáticos en Red</nombre>
+<nombre>Sistemas Microinformáticos y Redes</nombre>```
+
+Consulta XPath:
+
+```xml
+//nombre[contains(lower-case(text()), 'informáticos')]
+```
 
 </details>
 
