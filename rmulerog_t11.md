@@ -730,13 +730,13 @@ Aplicaciones web
 Consulta XPath:
 
 ```xpath
-
+//modulo[ciclo=//decretoTitulo[@año="2008"]/../@id]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Aplicaciones web
 ```
 </details>
 
