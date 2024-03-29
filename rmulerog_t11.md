@@ -677,13 +677,14 @@ Desarrollo de Aplicaciones Web
 Consulta XPath:
 
 ```xpath
-
+//ciclo[@id=//modulo[nombre="Lenguajes de marcas y sistemas de gestión de información"]/ciclo/node()]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Administración de Sistemas Informáticos en Red
+Desarrollo de Aplicaciones Web
 ```
 </details>
 
