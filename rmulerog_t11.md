@@ -8,6 +8,8 @@
 ## Actividad 1
 
 Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la respuesta deseada.
+<details>
+<summary>Documento XML</summary>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -33,7 +35,7 @@ Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la 
   </ciclos>
 </ies>
 ```
-
+</details>
 ### Actividad 1.1
 
 Nombre del instituto.
