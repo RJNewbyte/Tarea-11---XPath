@@ -227,16 +227,23 @@ Salida esperada:
 <nombre>Administración de Sistemas Informáticos en Red</nombre>
 ```
 
-Consulta XPath:
+Consulta XPath en un paso:
 
 ```xpath
+/ies/ciclos/ciclo[grado="Superior"]/nombre
+```
 
+Consulta XPath en dos pasos:
+
+```xpath
+//grado[text()="Superior"]/../nombre
 ```
 
 Salida real:
 
 ```xml
-
+<nombre>Administración de Sistemas Informáticos en Red</nombre>
+<nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
 ```
 </details>
 
