@@ -684,7 +684,7 @@ Salida real:
 
 ```xml
 Administración de Sistemas Informáticos en Red
-Desarrollo de Aplicaciones Web
+Desarrollo de Aplicaciones Web´´
 ```
 </details>
 
@@ -704,14 +704,16 @@ Seguridad y Alta Disponibilidad
 Consulta XPath:
 
 ```xpath
-
+//modulo[ciclo=//ciclo[grado="Superior"]/@id]/nombre/node()
 ```
 </details>
 
 Salida real:
 
 ```xml
-
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Seguridad y Alta Disponibilidad
 ```
 
 ### Actividad 3.4
