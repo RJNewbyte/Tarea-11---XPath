@@ -266,7 +266,7 @@ Consulta XPath:
 Consulta XPath en un paso:
 
 ```xpath
-
+//ciclo[decretoTitulo/@año<2010]/nombre
 ```
 
 Consulta XPath en dos pasos:
