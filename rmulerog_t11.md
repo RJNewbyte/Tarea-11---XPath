@@ -105,13 +105,15 @@ Sistemas Microinformáticos y Redes
 Consulta XPath:
 
 ```xpath
-
+//ciclos/ciclo/nombre/text()
 ```
 
 Salida real:
 
 ```xml
-
+Administración de Sistemas Informáticos en Red
+Desarrollo de Aplicaciones Multiplataforma
+Sistemas Microinformáticos y Redes
 ```
 </details>
 
@@ -131,13 +133,15 @@ id="SMR"
 Consulta XPath:
 
 ```xpath
-
+//ciclos/ciclo/@id
 ```
 
-Salida real:
+Salida real:´
 
 ```xml
-
+id="ASIR"
+id="DAM"
+id="SMR"
 ```
 </details>
 
@@ -157,13 +161,15 @@ año="2008"
 Consulta XPath:
 
 ```xpath
-
+//ciclos/ciclo/decretoTitulo/@año
 ```
 
 Salida real:
 
 ```xml
-
+año="2009"
+año="2010"
+año="2008"
 ```
 </details>
 
@@ -184,16 +190,26 @@ Salida esperada:
 </ciclo>
 ```
 
-Consulta XPath:
+Consulta XPath en un paso:
 
 ```xpath
+/ies/ciclos/ciclo[grado='Medio']
+```
 
+Consulta XPath en dos pasos:
+
+```xpath
+//ciclo[grado='Medio']/../ciclo[@id='SMR']
 ```
 
 Salida real:
 
 ```xml
-
+<ciclo id="SMR">
+      <nombre>Sistemas Microinformáticos y Redes</nombre>
+      <grado>Medio</grado>
+      <decretoTitulo año="2008"/>
+    </ciclo>
 ```
 </details>
 
