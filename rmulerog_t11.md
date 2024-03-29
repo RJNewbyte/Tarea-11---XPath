@@ -6,8 +6,11 @@
 - Fecha: 29/03/2024
 
 ## Actividad 1
+<details>
+<summary>EXPANDIR ACTIVIDAD</summary>
 
 Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la respuesta deseada.
+
 <details>
 <summary>Documento XML</summary>
 
@@ -36,10 +39,13 @@ Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la 
 </ies>
 ```
 </details>
+
+
 ### Actividad 1.1
 
 Nombre del instituto.
 
+<details>
 Salida esperada:
 
 ```xml
@@ -57,11 +63,13 @@ Salida real:
 ```xml
 <nombre>Campus Digital</nombre>
 ```
+</details>
 
 ### Actividad 1.2
 
 Página web del Instituto.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -79,11 +87,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.3
 
 Nombre de los Ciclos Formativos.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -103,11 +113,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.4
 
 Siglas por las que se conocen los Ciclos Formativos.
 
+<details>
 Salida esperada:
 
 ```xpath
@@ -127,11 +139,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.5
 
 Años en los que se publicaron los decretos de título de los Ciclos Formativos.
 
+<details>
 Salida esperada:
 
 ```xpath
@@ -151,11 +165,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.6
 
 Ciclos Formativos de Grado Medio (se trata de obtener el elemento `<ciclo>` completo).
 
+<details>
 Salida esperada:
 
 > Resuelva este ejercicio de dos formas distintas, en un único paso de búsqueda y en dos pasos de búsqueda.
@@ -179,11 +195,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.7
 
 Nombre de los Ciclos Formativos de Grado Superior.
 
+<details>
 Salida esperada:
 
 > Resuelva este ejercicio de dos formas distintas, en un único paso de búsqueda y en dos pasos de búsqueda.
@@ -204,11 +222,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.8
 
 Nombre de los Ciclos Formativos anteriores a 2010.
 
+<details>
 Salida esperada:
 
 > Resuelva este ejercicio de dos formas distintas, en un único paso de búsqueda y en dos pasos de búsqueda.
@@ -229,11 +249,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.9
 
 Nombre de los Ciclos Formativos de 2008 o 2010.
 
+<details>
 Salida esperada:
 
 > Resuelva este ejercicio de dos formas distintas, en un único paso de búsqueda y en dos pasos de búsqueda.
@@ -254,14 +276,22 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 1.9
 
 Invéntate tu propia consulta.
 
+</details>
+
 ## Actividad 2
+<details>
+<summary>EXPANDIR ACTIVIDAD</summary>
 
 Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la respuesta deseada.
+
+<details>
+<summary>Documento XML</summary>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -295,11 +325,13 @@ Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la 
   </modulos>
 </ies>
 ```
+</details>
 
 ### Actividad 2.1
 
 Nombre de los módulos que se imparten en el Instituto.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -320,11 +352,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 2.2
 
 Nombre de los módulos del ciclo ASIR.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -344,11 +378,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 2.3
 
 Nombre de los módulos que se imparten en el segundo curso de cualquier ciclo.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -367,11 +403,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 2.4
 
 Nombre de los módulos de menos de 5 horas semanales.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -391,11 +429,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 2.5
 
 Nombre de los módulos que se imparten en el primer curso de ASIR.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -414,11 +454,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 2.6
 
 Horas semanales de los módulos de más de 3 horas semanales.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -437,11 +479,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 2.7
 
 Invéntate tu propia consulta.
 
+<details>
 Consulta XPath:
 
 ```xpath
@@ -453,11 +497,17 @@ Salida real:
 ```xml
 
 ```
-
+</details>
+</details>
 
 ## Actividad 3
+<details>
+<summary>EXPANDIR ACTIVIDAD</summary>
 
 Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la respuesta deseada.
+
+<details>
+<summary>Documento XML</summary>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -510,11 +560,13 @@ Dado el siguiente documento XML, escriba las expresiones XPath que devuelvan la 
   </modulos>
 </ies>
 ```
+</details>
 
 ### Actividad 3.1
 
 Nombre de los módulos del ciclo "Sistemas Microinformáticos y Redes" (en la expresión final no deben aparecer las siglas SMR).
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -532,11 +584,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 3.2
 
 Nombre de los ciclos que incluyen el módulo "Lenguajes de marcas y sistemas de gestión de información".
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -555,11 +609,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 3.3
 
 Nombre de los módulos de ciclos de Grado Superior.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -573,6 +629,7 @@ Consulta XPath:
 ```xpath
 
 ```
+</details>
 
 Salida real:
 
@@ -584,6 +641,7 @@ Salida real:
 
 Nombre de los módulos de ciclos cuyo título se aprobó en 2008.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -601,11 +659,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 3.5
 
 Grado de los ciclos con módulos de primer curso.
 
+<details>
 Salida esperada:
 
 ```plaintext
@@ -624,11 +684,13 @@ Salida real:
 ```xml
 
 ```
+</details>
 
 ### Actividad 3.6
 
 Invéntate tu propia consulta.
 
+<details>
 Consulta XPath:
 
 ```xpath
@@ -640,10 +702,17 @@ Salida real:
 ```xml
 
 ```
+</details>
+</details>
 
 ## (Voluntaria) Actividad 4
+<details>
+<summary>EXPANDIR ACTIVIDAD</summary>
 
 Dado el siguiente fichero XML:
+
+<details>
+<summary>Documento XML</summary>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -842,6 +911,7 @@ Dado el siguiente fichero XML:
 
 </universidad>
 ```
+</details>
 
 Obtén la siguiente información.
 
@@ -956,3 +1026,5 @@ Nombre de los alumnos que estudian grados cuyos planes son anteriores a 2002.
 ### Actividad 4.28
 
 Invéntate tu propia consulta.
+
+</details>
