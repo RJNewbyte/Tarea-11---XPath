@@ -326,12 +326,14 @@ Invéntate tu propia consulta.
 
 Salida esperada:
 
-```<nombre>Administración de Sistemas Informáticos en Red</nombre>
-<nombre>Sistemas Microinformáticos y Redes</nombre>```
+```xml
+<nombre>Administración de Sistemas Informáticos en Red</nombre>
+<nombre>Sistemas Microinformáticos y Redes</nombre>
+```
 
 Consulta XPath:
 
-```xml
+```xpath
 //nombre[contains(lower-case(text()), 'informáticos')]
 ```
 </details>
