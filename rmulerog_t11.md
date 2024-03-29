@@ -79,13 +79,13 @@ https://campusdigitalfp.com/
 Consulta XPath:
 
 ```xpath
-
+//web/text()
 ```
 
 Salida real:
 
 ```xml
-
+https://campusdigitalfp.com/
 ```
 </details>
 
