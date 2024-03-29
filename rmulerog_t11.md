@@ -47,13 +47,13 @@ Salida esperada:
 Consulta XPath:
 
 ```xpath
-
+/ies/nombre
 ```
 
 Salida real:
 
 ```xml
-
+<nombre>Campus Digital</nombre>
 ```
 
 ### Actividad 1.2
@@ -64,6 +64,18 @@ Salida esperada:
 
 ```plaintext
 https://campusdigitalfp.com/
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 1.3
@@ -78,6 +90,18 @@ Desarrollo de Aplicaciones Multiplataforma
 Sistemas Microinformáticos y Redes
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 1.4
 
 Siglas por las que se conocen los Ciclos Formativos.
@@ -90,6 +114,18 @@ id="DAM"
 id="SMR"
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 1.5
 
 Años en los que se publicaron los decretos de título de los Ciclos Formativos.
@@ -100,6 +136,18 @@ Salida esperada:
 año="2009"
 año="2010"
 año="2008"
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 1.6
@@ -118,6 +166,18 @@ Salida esperada:
 </ciclo>
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 1.7
 
 Nombre de los Ciclos Formativos de Grado Superior.
@@ -129,6 +189,18 @@ Salida esperada:
 ```xml
 <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
 <nombre>Administración de Sistemas Informáticos en Red</nombre>
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 1.8
@@ -144,6 +216,18 @@ Administración de Sistemas Informáticos en Red
 Sistemas Microinformáticos y Redes
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 1.9
 
 Nombre de los Ciclos Formativos de 2008 o 2010.
@@ -155,6 +239,18 @@ Salida esperada:
 ```plaintext
 Desarrollo de Aplicaciones Multiplataforma
 Sistemas Microinformáticos y Redes
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 1.9
@@ -211,6 +307,18 @@ Lenguajes de marcas y sistemas de gestión de información
 Seguridad y Alta Disponibilidad
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 2.2
 
 Nombre de los módulos del ciclo ASIR.
@@ -223,6 +331,18 @@ Lenguajes de marcas y sistemas de gestión de información
 Seguridad y Alta Disponibilidad
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 2.3
 
 Nombre de los módulos que se imparten en el segundo curso de cualquier ciclo.
@@ -232,6 +352,18 @@ Salida esperada:
 ```plaintext
 Aplicaciones web
 Seguridad y Alta Disponibilidad
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 2.4
@@ -246,6 +378,18 @@ Lenguajes de marcas y sistemas de gestión de información
 Seguridad y Alta Disponibilidad
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 2.5
 
 Nombre de los módulos que se imparten en el primer curso de ASIR.
@@ -255,6 +399,18 @@ Salida esperada:
 ```plaintext
 Gestión de bases de datos
 Lenguajes de marcas y sistemas de gestión de información
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 2.6
@@ -268,9 +424,34 @@ Salida esperada:
 5
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 2.7
 
 Invéntate tu propia consulta.
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 
 ## Actividad 3
 
@@ -338,6 +519,18 @@ Salida esperada:
 Aplicaciones web
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 3.2
 
 Nombre de los ciclos que incluyen el módulo "Lenguajes de marcas y sistemas de gestión de información".
@@ -347,6 +540,18 @@ Salida esperada:
 ```plaintext
 Administración de Sistemas Informáticos en Red
 Desarrollo de Aplicaciones Web
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 3.3
@@ -361,6 +566,18 @@ Lenguajes de marcas y sistemas de gestión de información
 Seguridad y Alta Disponibilidad
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 3.4
 
 Nombre de los módulos de ciclos cuyo título se aprobó en 2008.
@@ -369,6 +586,18 @@ Salida esperada:
 
 ```plaintext
 Aplicaciones web
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
 ```
 
 ### Actividad 3.5
@@ -382,9 +611,33 @@ Superior
 Superior
 ```
 
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
+
 ### Actividad 3.6
 
 Invéntate tu propia consulta.
+
+Consulta XPath:
+
+```xpath
+
+```
+
+Salida real:
+
+```xml
+
+```
 
 ## (Voluntaria) Actividad 4
 
