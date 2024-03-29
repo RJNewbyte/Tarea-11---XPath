@@ -315,11 +315,14 @@ Sistemas Microinformáticos y Redes
 ```
 </details>
 
+
 ### Actividad 1.9 (BIS?)
 
 Invéntate tu propia consulta.
 >Obtener todos los nombres de los ciclos que contengan la palabra "informáticos", no case-sensitive.
 >>Se trata de una consulta avanzada que puede no mostrarse en todos los visores. [http://xpather.com ](Recomendado)
+
+<details>
 
 Salida esperada:
 
@@ -331,6 +334,7 @@ Consulta XPath:
 ```xml
 //nombre[contains(lower-case(text()), 'informáticos')]
 ```
+</details>
 
 </details>
 
