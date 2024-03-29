@@ -193,13 +193,13 @@ Salida esperada:
 Consulta XPath en un paso:
 
 ```xpath
-/ies/ciclos/ciclo[grado='Medio']
+//ciclo[grado='Medio']
 ```
 
 Consulta XPath en dos pasos:
 
 ```xpath
-//ciclo[grado='Medio']/../ciclo[@id='SMR']
+//grado[text()='Medio']/..
 ```
 
 Salida real:
