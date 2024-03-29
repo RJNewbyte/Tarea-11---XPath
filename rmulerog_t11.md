@@ -483,13 +483,15 @@ Seguridad y Alta Disponibilidad
 Consulta XPath:
 
 ```xpath
-
+//modulo[horasSemanales<5]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Aplicaciones web
+Lenguajes de marcas y sistemas de gestión de información
+Seguridad y Alta Disponibilidad
 ```
 </details>
 
