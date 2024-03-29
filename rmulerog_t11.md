@@ -652,13 +652,13 @@ Aplicaciones web
 Consulta XPath:
 
 ```xpath
-
+//modulo[not(ciclo="ASIR" or ciclo="DAW")]/nombre/node()
 ```
 
 Salida real:
 
 ```xml
-
+Aplicaciones web
 ```
 </details>
 
