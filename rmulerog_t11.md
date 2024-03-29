@@ -263,8 +263,16 @@ Sistemas Microinformáticos y Redes
 
 Consulta XPath:
 
+Consulta XPath en un paso:
+
 ```xpath
 
+```
+
+Consulta XPath en dos pasos:
+
+```xpath
+/ies/ciclos/ciclo/decretoTitulo[@año<2010]/../nombre/node()
 ```
 
 Salida real:
