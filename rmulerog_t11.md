@@ -769,12 +769,21 @@ Superior
 ### Actividad 3.6
 
 Invéntate tu propia consulta.
+>Obtener el nombre del módulo con ID mayor de todos.
+>>Se trata de una consulta avanzada que puede no mostrarse en todos los visores. [http://xpather.com ](Recomendado)
 
 <details>
+
+Salida esperada:
+
+```plaintext
+Seguridad y Alta Disponibilidad
+```
+
 Consulta XPath:
 
 ```xpath
-
+//modulo[number(@id) = max(//modulo/number(@id))]/nombre/node()
 ```
 
 Salida real:
