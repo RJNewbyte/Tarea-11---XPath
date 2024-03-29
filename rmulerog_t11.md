@@ -755,13 +755,14 @@ Superior
 Consulta XPath:
 
 ```xpath
-
+//ciclo[@id=//modulo[curso="1"]/ciclo/node()]/grado/node()
 ```
 
 Salida real:
 
 ```xml
-
+Superior
+Superior
 ```
 </details>
 
