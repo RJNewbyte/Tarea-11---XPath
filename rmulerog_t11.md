@@ -1130,70 +1130,82 @@ Nombres de todos los alumnos.
 Salida esperada:
 
 ```plaintext
-
+Víctor Manuel
+Luisa
+Fernando
+María
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno/nombre/text()
 ```
 </details>
 
 ### Actividad 4.06
 
-Identificadores de todas las grados.
+Identificadores de todos los grados.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+g01
+g02
+g03
+g04
+g05
+g06
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grado/@id
 ```
 </details>
 
 ### Actividad 4.07
 
-Datos de la grado cuyo id es g01.
+Datos del grado cuyo id es g01.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+<nombre>Grado en Ingeniería Informática</nombre>
+<plan>2003</plan>
+<creditos>250</creditos>
+<centro>Escuela de Informática</centro>
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grado[@id="g01"]/* 
 ```
+
 </details>
 
 ### Actividad 4.08
 
-Centro en que se estudia de la grado cuyo id es g02.
+Centro en que se estudia el grado cuyo id es g02.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+Facultad de Ciencias Sociales
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grado[@id="g02"]/centro/text()
 ```
 </details>
 
@@ -1206,13 +1218,13 @@ Nombre de las grados que tengan subdirector.
 Salida esperada:
 
 ```plaintext
-
+Grado en Relaciones Laborales
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grado[subdirector]/nombre/text()
 ```
 </details>
 
@@ -1225,32 +1237,36 @@ Nombre de los alumnos que estén haciendo proyecto.
 Salida esperada:
 
 ```plaintext
-
+Luisa
+María
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[estudios/proyecto]/nombre/text()
 ```
 </details>
 
 ### Actividad 4.11
 
-Códigos de las grados en las que hay algún alumno matriculado.
+Códigos de los grados en los que hay algún alumno matriculado.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+g01
+g02
+g02
+g01
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno/estudios/grado/@codigo
 ```
 </details>
 
@@ -1263,13 +1279,13 @@ Apellidos y Nombre de los alumnos con beca.
 Salida esperada:
 
 ```plaintext
-
+Pérez Romero, Fernando
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[@beca="si"]/concat(apellido1, " " ,apellido2, ", " ,nombre)
 ```
 </details>
 
@@ -1282,13 +1298,14 @@ Nombre de las asignaturas del grado g04.
 Salida esperada:
 
 ```plaintext
-
+Pedagogía
+Tecnología de los Alimentos
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//asignaturas/asignatura[@titulacion="g04"]/nombre/text()
 ```
 </details>
 
@@ -1301,13 +1318,17 @@ Nombre de las asignaturas de segundo trimestre.
 Salida esperada:
 
 ```plaintext
-
+Ingeniería del Software
+Pedagogía
+Didáctica
+Tecnología de los Alimentos
+Historia del Pensamiento
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//asignaturas/asignatura[trimestre="2"]/nombre/text()
 ```
 </details>
 
@@ -1320,13 +1341,17 @@ Nombre de las asignaturas que no tienen 4 créditos teóricos.
 Salida esperada:
 
 ```plaintext
-
+Ofimática
+Ingeniería del Software
+Tecnología de los Alimentos
+Bases de Datos
+Historia del Pensamiento
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//asignaturas/asignatura[creditosTeoricos!="4"]/nombre/text()
 ```
 </details>
 
