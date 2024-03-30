@@ -1357,20 +1357,20 @@ Consulta XPath:
 
 ### Actividad 4.16
 
-Código de la grado que estudia el último alumno.
+Código del grado que estudia el último alumno.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+g01
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumnos/alumno[last()]/estudios/grado/@codigo
 ```
 </details>
 
@@ -1383,51 +1383,61 @@ Código de las asignaturas que estudian mujeres.
 Salida esperada:
 
 ```plaintext
-
+a02
+a01
+a02
+a01
+a07
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumnos/alumno[sexo="Mujer"]//asignatura/@codigo
 ```
 </details>
 
 ### Actividad 4.18
 
-Nombre de los alumnos que matriculados en la asignatura a02.
+Nombre de los alumnos matriculados en la asignatura a02.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+Víctor Manuel
+Luisa
+Fernando
+María
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[//asignatura/@codigo="a02"]/nombre/text()
 ```
 </details>
 
 ### Actividad 4.19
 
-Códigos de las grados que estudian los alumnos matriculados en alguna asignatura.
+Códigos de los grados que estudian los alumnos matriculados en alguna asignatura.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+g01
+g02
+g02
+g01
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[//asignatura]//grado/@codigo
 ```
 </details>
 
@@ -1440,14 +1450,19 @@ Apellidos de todos los hombres.
 Salida esperada:
 
 ```plaintext
-
+Rivas Santos
+Pérez Romero
 ```
 
-Consulta XPath:
+Consulta XPath [v2.0](https://www.freeformatter.com/xpath-tester.html) iterando por grupos y concatenando contenido de dos etiquetas.
 
 ```xpath
-
+for $g in //alumnos/alumno[sexo="Hombre"] return concat($g/apellido1, " ", $g/apellido2)
 ```
+>La solución para consultas XPath v1.0 devuelve los apellidos por separado, se podrían procesar posteriormente, pero no es lo ideal.
+>>```xpath
+>>//alumno[sexo='Hombre']/apellido1/text() | //alumno[sexo='Hombre']/apellido2/text()```
+
 </details>
 
 ### Actividad 4.21
