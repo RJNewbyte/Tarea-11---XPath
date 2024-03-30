@@ -1528,20 +1528,20 @@ Consulta XPath:
 
 ### Actividad 4.24
 
-Nombre de las grados que estudian los alumnos matriculados en la asignatura Tecnología de los Alimentos.
+Nombre de los grados que estudian los alumnos matriculados en la asignatura Tecnología de los Alimentos.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+Grado en Ingeniería Informática
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grado[@id=//alumno[.//@codigo=//asignatura[nombre="Tecnología de los Alimentos"]/@id]//grado/@codigo]/nombre/text()
 ```
 </details>
 
