@@ -1461,7 +1461,8 @@ for $g in //alumnos/alumno[sexo="Hombre"] return concat($g/apellido1, " ", $g/ap
 ```
 >La solución para consultas XPath v1.0 devuelve los apellidos por separado, se podrían procesar posteriormente, pero no es lo ideal.
 >>```xpath
->>//alumno[sexo='Hombre']/apellido1/text() | //alumno[sexo='Hombre']/apellido2/text()```
+>>//alumno[sexo='Hombre']/apellido1/text() | //alumno[sexo='Hombre']/apellido2/text()
+>>```
 
 </details>
 
