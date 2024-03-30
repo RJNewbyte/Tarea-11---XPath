@@ -1008,112 +1008,532 @@ Obtén la siguiente información.
 
 Nombre de la Universidad.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+Universidad de Zaragoza
+```
+
+Consulta XPath:
+
+```xpath
+/universidad/nombre/node()
+```
+</details>
+
 ### Actividad 4.02
 
 País de la Universidad.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.03
 
 Nombres de las grados.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.04
 
 Años de plan de estudio de las grados.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.05
 
 Nombres de todos los alumnos.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.06
 
 Identificadores de todas las grados.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.07
 
 Datos de la grado cuyo id es g01.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.08
 
 Centro en que se estudia de la grado cuyo id es g02.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.09
 
 Nombre de las grados que tengan subdirector.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.10
 
 Nombre de los alumnos que estén haciendo proyecto.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.11
 
 Códigos de las grados en las que hay algún alumno matriculado.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.12
 
 Apellidos y Nombre de los alumnos con beca.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.13
 
 Nombre de las asignaturas del grado g04.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.14
 
 Nombre de las asignaturas de segundo trimestre.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.15
 
 Nombre de las asignaturas que no tienen 4 créditos teóricos.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.16
 
 Código de la grado que estudia el último alumno.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.17
 
 Código de las asignaturas que estudian mujeres.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.18
 
 Nombre de los alumnos que matriculados en la asignatura a02.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.19
 
 Códigos de las grados que estudian los alumnos matriculados en alguna asignatura.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.20
 
 Apellidos de todos los hombres.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.21
 
 Nombre de la grado que estudia Víctor Manuel.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.22
 
 Nombre de las asignaturas que estudia Luisa.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.23
 
 Primer apellido de los alumnos matriculados en Ingeniería del Software.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.24
 
 Nombre de las grados que estudian los alumnos matriculados en la asignatura Tecnología de los Alimentos.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.25
 
 Nombre de los alumnos matriculados en grados que no tienen subdirector.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.26
 
 Nombre de las alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien la grado de I.T. Informática .
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 ### Actividad 4.27
 
 Nombre de los alumnos que estudian grados cuyos planes son anteriores a 2002.
 
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
+
 ### Actividad 4.28
 
 Invéntate tu propia consulta.
+
+<details>
+
+Salida esperada:
+
+```plaintext
+
+```
+
+Consulta XPath:
+
+```xpath
+
+```
+</details>
 
 </details>
