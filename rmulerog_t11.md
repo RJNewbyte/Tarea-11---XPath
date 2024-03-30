@@ -1089,9 +1089,34 @@ Consulta XPath:
 //grados/grado/plan/text()
 ```
 
-Consulta XPath v2.0[ link](https://www.freeformatter.com/xpath-tester.html)eliminando duplicados.
+Consulta XPath [v2.0](https://www.freeformatter.com/xpath-tester.html) eliminando duplicados.
+
+Salida esperada:
+
+```plaintext
+2003
+2000
+1980
+```
+
 ```xpath
 distinct-values(//grados/grado/plan/text())
+```
+Consulta XPath [v2.0](https://www.freeformatter.com/xpath-tester.html) iterando por grupos y concatenando contenido de dos etiquetas.
+
+Salida esperada:
+
+```plaintext
+2003 | Grado en Ingeniería Informática 
+2000 | Grado en Administración y Dirección de Empresas 
+2000 | Grado en Relaciones Laborales 
+2003 | Grado en Quimica 
+2000 | Grado en Biotecnología 
+1980 | Grado en Humanidades
+```
+
+```xpath
+for $g in //grados/grado return concat($g/plan/text(), ' | ', $g/nombre/text())
 ```
 
 </details>
