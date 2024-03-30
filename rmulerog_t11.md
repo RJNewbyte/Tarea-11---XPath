@@ -1595,13 +1595,14 @@ Nombre de los alumnos que estudian grados cuyos planes son anteriores a 2002.
 Salida esperada:
 
 ```plaintext
-
+Luisa
+Fernando
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[.//grado/@codigo=//grado[plan<2002]/@id]/nombre/text()
 ```
 </details>
 
