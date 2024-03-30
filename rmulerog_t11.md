@@ -1569,20 +1569,20 @@ Consulta XPath:
 
 ### Actividad 4.26
 
-Nombre de las alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien la grado de I.T. Informática .
+Nombre de los alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien el grado de Ingeniería Informática .
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+Víctor Manuel
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[.//@codigo=//asignatura[creditosPracticos="0"]/@id and .//@codigo=//grado[nombre="Grado en Ingeniería Informática"]/@id]/nombre/text()
 ```
 </details>
 
