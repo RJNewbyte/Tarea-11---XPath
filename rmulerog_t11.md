@@ -1032,52 +1032,68 @@ País de la Universidad.
 Salida esperada:
 
 ```plaintext
-
+España
 ```
 
 Consulta XPath:
 
 ```xpath
-
+/universidad/pais/node()
 ```
 </details>
 
 ### Actividad 4.03
 
-Nombres de las grados.
+Nombres de los grados.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+Grado en Ingeniería Informática
+Grado en Administración y Dirección de Empresas
+Grado en Relaciones Laborales
+Grado en Quimica
+Grado en Biotecnología
+Grado en Humanidades
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grado/nombre/node()
 ```
 </details>
 
 ### Actividad 4.04
 
-Años de plan de estudio de las grados.
+Años de plan de estudio de los grados.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+2003
+2000
+2000
+2003
+2000
+1980
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grados/grado/plan/text()
 ```
+
+Consulta XPath v2.0[ link](https://www.freeformatter.com/xpath-tester.html)eliminando duplicados.
+```xpath
+distinct-values(//grados/grado/plan/text())
+```
+
 </details>
 
 ### Actividad 4.05
