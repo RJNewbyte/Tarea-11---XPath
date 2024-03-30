@@ -1554,13 +1554,16 @@ Nombre de los alumnos matriculados en grados que no tienen subdirector.
 Salida esperada:
 
 ```plaintext
-
+Víctor Manuel
+Luisa
+Fernando
+María
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[.//grado/@codigo=//grado[not(subdirector)]/@id]/nombre/text()
 ```
 </details>
 
