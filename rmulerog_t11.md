@@ -1609,19 +1609,23 @@ Consulta XPath:
 ### Actividad 4.28
 
 Invéntate tu propia consulta.
+>Obtener un listado con el nombre de los alumnos y la suma de los creditos teoricos de todas las asignaturas en que estan matriculados.
 
 <details>
 
 Salida esperada:
 
 ```plaintext
-
+Víctor Manuel: 17 
+Luisa: 9 
+Fernando: 19 
+María: 10.5
 ```
 
-Consulta XPath:
+Consulta XPath [v2.0](https://www.freeformatter.com/xpath-tester.html) iterando por alumnos, sumando los creditos de las asignaturas y concatenandolos con el nombre del alumno.
 
 ```xpath
-
+for $a in //alumno return concat($a/nombre, ": ", sum(//asignatura[@id = $a//asignatura/@codigo]/creditosTeoricos))
 ```
 </details>
 
