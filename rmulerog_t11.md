@@ -1475,13 +1475,13 @@ Nombre de la grado que estudia Víctor Manuel.
 Salida esperada:
 
 ```plaintext
-
+Grado en Ingeniería Informática
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//grados/grado[@id=//alumno[nombre="Víctor Manuel"]//grado/@codigo]/nombre/text()
 ```
 </details>
 
