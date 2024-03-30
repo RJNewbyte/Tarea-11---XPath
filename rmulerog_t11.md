@@ -1494,13 +1494,14 @@ Nombre de las asignaturas que estudia Luisa.
 Salida esperada:
 
 ```plaintext
-
+Ofimática
+Ingeniería del Software
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//asignaturas/asignatura[@id=//alumno[nombre="Luisa"]//asignatura/@codigo]/nombre/text()
 ```
 </details>
 
@@ -1513,13 +1514,15 @@ Primer apellido de los alumnos matriculados en Ingeniería del Software.
 Salida esperada:
 
 ```plaintext
-
+Pérez
+Pérez
+Avalón
 ```
 
 Consulta XPath:
 
 ```xpath
-
+//alumno[descendant::*/@codigo=//asignaturas/asignatura[nombre="Ingeniería del Software"]/@id]/apellido1/text()
 ```
 </details>
 
